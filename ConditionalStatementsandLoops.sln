@@ -31,15 +31,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestaurantDiscount", "Resta
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hotel", "Hotel\Hotel.csproj", "{09525876-5F44-49BA-A685-0F13B2700DB7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordInPlural", "WordInPlural\WordInPlural.csproj", "{AF9F384E-DDB3-43D5-B95A-92A29A587A00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordInPlural", "WordInPlural\WordInPlural.csproj", "{AF9F384E-DDB3-43D5-B95A-92A29A587A00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntervalOfNumbers", "IntervalOfNumbers\IntervalOfNumbers.csproj", "{C3F5BF40-8F4A-467B-B34E-FA7D5F172AD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntervalOfNumbers", "IntervalOfNumbers\IntervalOfNumbers.csproj", "{C3F5BF40-8F4A-467B-B34E-FA7D5F172AD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CakeIngredients", "CakeIngredients\CakeIngredients.csproj", "{91C202A1-90AC-41B9-A9C6-B59F4B78BF91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CakeIngredients", "CakeIngredients\CakeIngredients.csproj", "{91C202A1-90AC-41B9-A9C6-B59F4B78BF91}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaloriesCounter", "CaloriesCounter\CaloriesCounter.csproj", "{051FC201-CB11-4560-9AE4-DA7C3A99BE17}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CaloriesCounter", "CaloriesCounter\CaloriesCounter.csproj", "{051FC201-CB11-4560-9AE4-DA7C3A99BE17}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountTheIntegers", "CountTheIntegers\CountTheIntegers.csproj", "{63A8FE86-570F-4FFB-B3E5-06974796444C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CountTheIntegers", "CountTheIntegers\CountTheIntegers.csproj", "{63A8FE86-570F-4FFB-B3E5-06974796444C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TriangleOfNumbers", "TriangleOfNumbers\TriangleOfNumbers.csproj", "{8098A28B-9139-49CD-8092-1F6F05107D56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5DifferentNumbers", "5DifferentNumbers\5DifferentNumbers.csproj", "{B3F852E1-8F69-4A31-8338-F087CD60B5D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +127,14 @@ Global
 		{63A8FE86-570F-4FFB-B3E5-06974796444C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A8FE86-570F-4FFB-B3E5-06974796444C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A8FE86-570F-4FFB-B3E5-06974796444C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8098A28B-9139-49CD-8092-1F6F05107D56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8098A28B-9139-49CD-8092-1F6F05107D56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8098A28B-9139-49CD-8092-1F6F05107D56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8098A28B-9139-49CD-8092-1F6F05107D56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3F852E1-8F69-4A31-8338-F087CD60B5D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3F852E1-8F69-4A31-8338-F087CD60B5D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3F852E1-8F69-4A31-8338-F087CD60B5D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3F852E1-8F69-4A31-8338-F087CD60B5D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
