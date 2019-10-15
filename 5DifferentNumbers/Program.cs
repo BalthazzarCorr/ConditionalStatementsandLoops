@@ -9,11 +9,31 @@ namespace _5DifferentNumbers
 			var firstNumber = int.Parse(Console.ReadLine());
 			var secondNumber = int.Parse(Console.ReadLine());
 
-			if (firstNumber >secondNumber)
+			if (secondNumber - firstNumber < 5)
 			{
-				for (int i = 1; i <= 5; i++)
+				Console.WriteLine("No");
+				return;
+			}
+			else
+			{
+				for (int i = firstNumber; i <= secondNumber - 4; i++)
 				{
-					Console.WriteLine(firstNumber++);
+					for (int j = firstNumber + 1; j <= secondNumber - 3; j++)
+					{
+						for (int k = firstNumber + 2; k <= secondNumber - 2; k++)
+						{
+							for (int l = firstNumber + 3; l <= secondNumber - 1; l++)
+							{
+								for (int m = firstNumber + 4; m <= secondNumber; m++)
+								{
+									if (i < j && j < k && k < l && l < m)
+									{
+										Console.WriteLine($"{i} {j} {k} {l} {m}");
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}
